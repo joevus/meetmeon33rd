@@ -1,0 +1,23 @@
+.jumbotron {
+  background: url(../images/meet-me-on-33rd-from-street.jpg) center center;
+  background-size: cover;
+  color: white;
+  min-height: 400px;
+}
+
+.front-description img {
+  width: 100%;
+}
+
+.feature-img {
+  width: 100%;
+}
+
+
+footer {
+    background: #555555;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: white;
+}
