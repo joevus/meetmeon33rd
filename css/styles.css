@@ -32,3 +32,16 @@ footer {
 hr {
   border: 1px solid #CF7019;
 }
+
+.address {
+    padding-bottom: 30px;
+}
+
+.address ul {
+    list-style-type: none;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
