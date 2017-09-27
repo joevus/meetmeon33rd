@@ -5,6 +5,14 @@
   min-height: 400px;
 }
 
+nav img {
+  width: 140px;
+}
+
+img {
+  width: 100%;
+}
+
 .front-description img {
   width: 100%;
 }
@@ -13,11 +21,14 @@
   width: 100%;
 }
 
-
 footer {
     background: #555555;
     padding-top: 30px;
     padding-bottom: 15px;
     text-align: center;
     color: white;
+}
+
+hr {
+  border: 1px solid #CF7019;
 }
