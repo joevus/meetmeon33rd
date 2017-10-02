@@ -9,6 +9,10 @@ nav img {
   width: 140px;
 }
 
+.tagline h3 {
+  margin: 100px auto 30px auto;
+}
+
 img {
   width: 100%;
 }

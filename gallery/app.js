@@ -16,6 +16,8 @@ $(document).ready(function(){
     // index to track which image is in viewer. Starts on 0.
     var i = 0;
 
+//*** Not working in IE yet ***
+
     document.getElementById("viewer").addEventListener("wheel", function(e){
       e.preventDefault();
       console.log(`deltaY: ${e.deltaY}`);
