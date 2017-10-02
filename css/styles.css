@@ -7,6 +7,60 @@
 
 nav img {
   width: 140px;
+  padding: 8px;
+  background-color: rgba(255,255,255,10);
+  border-radius: 3px;
+}
+
+.navbar {
+  border-radius: 0;
+}
+
+.navbar-brand {
+  /* To allow centering of links to not be affect by logo image. */
+  position: absolute;
+}
+
+.navbar-default{
+  background-color: #78496A;
+  border-color: rgb(96, 58, 85);
+  margin: 0;
+  height: 110px;
+}
+
+.nav>li>a {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 18px;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: center;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+/*.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: rgb(96, 58, 85);
+}*/
+
+/*.navbar-nav {
+  float: none;
+  text-align: center;
+}*/
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-brand {
+  padding: 5px 15px;
 }
 
 .tagline h3 {
