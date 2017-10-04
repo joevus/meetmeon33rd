@@ -8,7 +8,8 @@
 .jumbotron h1{
   /*color: #CF7019;*/
   /*color: rgb(234,215,178);*/
-  color: rgb(234,215,178);
+  color: rgb(255,245,225);
+  /*color: white;*/
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
   /*background-color: rgba(200,200,200,.8);*/
 }
@@ -93,6 +94,7 @@ body{
   margin: 100px auto 30px auto;
 }
 
+
 img {
   width: 100%;
   border-radius: 5px;
@@ -102,9 +104,60 @@ img {
   width: 100%;
 }
 
+.front-description {
+  margin-top: 30px;
+}
+
+.features {
+  margin-top: 90px;
+}
+
 .feature-img {
   width: 100%;
 }
+
+/*About page*/
+.testimonials{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.testimonial {
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+.about-section {
+  margin-top: 80px;
+}
+
+.our-story {
+  margin-top: 110px;
+}
+
+.meet-team {
+  margin-bottom: 90px;
+}
+
+/*Gallery*/
+.gallery-header {
+  margin-top: 40px;
+}
+.viewer-caption {
+  padding-top: 10px;
+  margin-bottom: 90px;
+}
+
+/*Reservations*/
+.reservation-header {
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.location {
+  margin-bottom: 80px;
+}
+
 
 footer {
     background: #555555;
