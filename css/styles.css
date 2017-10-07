@@ -148,6 +148,23 @@ img {
   margin-bottom: 90px;
 }
 
+#viewer {
+  background-image: url(../images/gallery/Bistro-tables.jpeg);
+  background-color: #222;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*border-radius: 5px;
+  display: flex;*/
+  align-items: center;
+  height: 640px;
+  /*overflow: hidden;*/
+}
+
+/*#viewer img {
+  max-width: 100%;
+}*/
+
 /*Reservations*/
 .reservation-header {
   margin-top: 100px;

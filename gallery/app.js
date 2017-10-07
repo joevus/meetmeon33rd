@@ -19,9 +19,11 @@ $(document).ready(function(){
 //*** Not working in IE yet ***
 
     document.getElementById("viewer").addEventListener("wheel", function(e){
+      // e.stopPropagation();
       e.preventDefault();
-      console.log(`deltaY: ${e.deltaY}`);
-      var img = document.getElementById("galleryImg");
+
+      // console.log(`deltaY: ${e.deltaY}`);
+      // var img = document.getElementById("galleryImg");
       if(e.deltaY > 0) { // scrolling up
         if(i < photoNames.length - 1 ){ // not at last image yet
           i++
@@ -39,6 +41,7 @@ $(document).ready(function(){
         }
       }
 
-      img.src = "../images/gallery/" + photoNames[i];
+      this.style.backgroundImage = `url('../images/gallery/${photoNames[i]}')`;
+      // img.src = "../images/gallery/" + photoNames[i];
     });
 });
