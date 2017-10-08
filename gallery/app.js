@@ -13,14 +13,23 @@ $(document).ready(function(){
       "Sunday-Gauranga-breathing.jpg"
     ];
 
+    // keep track of if recently changed photo, in order to not make them
+    // change too quickly
+    var recentlyChanged = false;
+
     // index to track which image is in viewer. Starts on 0.
     var i = 0;
 
 //*** Not working in IE yet ***
 
     document.getElementById("viewer").addEventListener("wheel", function(e){
-      // e.stopPropagation();
       e.preventDefault();
+
+      // prevent them from changing another image immediately
+      if(recentlyChanged) return;
+      recentlyChanged = true;
+      setTimeout(function(){recentlyChanged = false}, 300);
+
 
       // console.log(`deltaY: ${e.deltaY}`);
       // var img = document.getElementById("galleryImg");

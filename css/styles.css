@@ -154,16 +154,9 @@ img {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  /*border-radius: 5px;
-  display: flex;*/
-  align-items: center;
+  border-radius: 5px;
   height: 640px;
-  /*overflow: hidden;*/
 }
-
-/*#viewer img {
-  max-width: 100%;
-}*/
 
 /*Reservations*/
 .reservation-header {
