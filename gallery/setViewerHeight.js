@@ -38,6 +38,8 @@ $(document).ready(function(){
           console.log(viewerTop);
           window.scroll(0, viewerTop);
         }
+      } else {
+        document.getElementById("viewer").style.height = "640px";
       }
     }
   }());

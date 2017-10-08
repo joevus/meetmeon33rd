@@ -158,24 +158,6 @@ img {
   height: 640px;
 }
 
-@media only screen and (max-width: 600px) {
-
-  /*html, body {
-    height: 100%;
-  }
-
-  .viewer-container, .viewer-parent {
-    height: 100%;
-  }*/
-  #viewer {
-    width: 100%;
-    height: 100vh;
-    /*height: 40%;*/
-    margin: 0;
-    padding: 0;
-  }
-}
-
 /*Reservations*/
 .reservation-header {
   margin-top: 100px;
