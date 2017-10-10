@@ -8,7 +8,7 @@ $(document).ready(function(){
   var viewer = document.getElementById("viewer");
 
   viewer.addEventListener('touchstart', handleTouchStart, false);
-  viewer.addEventListener('touchmove', handleTouchEnd, false);
+  viewer.addEventListener('touchend', handleTouchEnd, false);
 
   var xStart;
   var yStart;
@@ -20,7 +20,7 @@ $(document).ready(function(){
   var elapsedTime;
   var startTime;
 
-  function handleRightSwipe() {
+  function handleRightSwipe(e) {
     // bring previous photo
     if(photoIdx === 0){ // at first image
       // go to last image
@@ -30,10 +30,10 @@ $(document).ready(function(){
       photoIdx--;
     }
 
-    this.style.backgroundImage = `url('../images/gallery/${photoNames[photoIdx]}')`;
+    e.target.style.backgroundImage = `url('../images/gallery/${photoNames[photoIdx]}')`;
   }
 
-  function handleLeftSwipe() {
+  function handleLeftSwipe(e) {
     // bring next photo
     if(photoIdx < photoNames.length - 1 ){ // not at last image yet
       photoIdx++
@@ -42,7 +42,7 @@ $(document).ready(function(){
       photoIdx = 0;
     }
 
-    this.style.backgroundImage = `url('../images/gallery/${photoNames[photoIdx]}')`;
+    e.target.style.backgroundImage = `url('../images/gallery/${photoNames[photoIdx]}')`;
   }
 
   function handleTouchStart(e) {
@@ -68,9 +68,9 @@ $(document).ready(function(){
     if(elapsedTime <= allowedTime && Math.abs(dist) >= threshold && Math.abs(touchObj.pageY - startY) <= vertPrevent){
       // check if right or left swipe
       if(dist > 0) {
-        handleRightSwipe();
+        handleRightSwipe(e);
       } else {
-        handleLeftSwipe();
+        handleLeftSwipe(e);
       }
     }
   }
