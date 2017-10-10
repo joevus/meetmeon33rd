@@ -51,7 +51,7 @@ $(document).ready(function(){
     startX = touchObj.pageX;
     startY = touchObj.pageY;
     startTime = new Date().getTime(); // record time when finger first makes contact with surface
-    e.preventDefault()
+    // e.preventDefault()
   }
 
   viewer.addEventListener('touchmove', function(e) {
