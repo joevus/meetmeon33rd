@@ -154,8 +154,14 @@ img {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 5px;
   height: 640px;
+}
+
+.viewer-container {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #222;
+  border-radius: 5px;
 }
 
 /*Reservations*/
