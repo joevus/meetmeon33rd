@@ -8,6 +8,9 @@
       fix it with more code. Maybe for now, forgo this feature.
     - Make the viewer less than 100% of screen height when in mobile potrait mode
     - Make the page not scroll up when user means to swipe left or right on viewer
+    - Give a border, same color as background, to viewer so that when in
+    in landscape mode, it has some extra to cover the entire screen in dark gray
+    when it isn't aligned perfectly.
 */
 $(document).ready(function(){
 

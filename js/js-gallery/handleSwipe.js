@@ -55,17 +55,24 @@ $(document).ready(function(){
   }
 
   viewer.addEventListener('touchmove', function(e) {
-    // nothing doing yet.
+    var touchObj = e.changedTouches[0];
+    horizontalDist = touchObj.pageX - startX;
+    elapsedTime = new Date().getTime() - startTime;
+    if(elapsedTime <= allowedTime && Math.abs(horizontalDist) > 10 && Math.abs(touchObj.pageY - startY) <= vertPrevent) {
+      e.preventDefault();
+    }
   }, false);
 
   function handleTouchEnd(e) {
     var touchObj = e.changedTouches[0];
-    dist = touchObj.pageX - startX // get total dist traveled by finger while in contact with surface
-    elapsedTime = new Date().getTime() - startTime // get time elapsed
+    dist = touchObj.pageX - startX; // get total dist traveled by finger while in contact with surface
+    elapsedTime = new Date().getTime() - startTime; // get time elapsed
     // check that swipe occured:
     // that elapsed time is within specified, horizontal dist traveled >= threshold,
     //  and vertical distance traveled <= vertPrevent
     if(elapsedTime <= allowedTime && Math.abs(dist) >= threshold && Math.abs(touchObj.pageY - startY) <= vertPrevent){
+      // prevent vertical scrolling
+      e.preventDefault();
       // check if right or left swipe
       if(dist > 0) {
         handleRightSwipe(e);
