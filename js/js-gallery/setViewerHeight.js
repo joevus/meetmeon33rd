@@ -1,10 +1,5 @@
 /* Desired changes
-
-    - Make the viewer less than 100% of screen height when in mobile potrait mode
-    - Make the page not scroll up when user means to swipe left or right on viewer
-    - Give a border, same color as background, to viewer so that when in
-    in landscape mode, it has some extra to cover the entire screen in dark gray
-    when it isn't aligned perfectly.
+    
 */
 $(document).ready(function(){
 
@@ -59,7 +54,6 @@ $(document).ready(function(){
       var viewer = document.getElementById("viewer");
       if(window.innerWidth < window.innerHeight) {
         // less than full viewport height if portrait mode
-        // viewer.style.height = window.innerHeight * 0.85 + "px";
         viewer.style.height = "350px";
       } else {
         // full viewport height when landscape mode

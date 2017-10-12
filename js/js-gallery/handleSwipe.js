@@ -55,6 +55,9 @@ $(document).ready(function(){
   }
 
   viewer.addEventListener('touchmove', function(e) {
+    // Prevent unwanted vertical scrolling when wanting to swipe photos.
+    // Tries to gauge when user is trying to swipe versus scroll vertically.
+    // Prevents scrolling even in some cases when not a successful swipe.
     var touchObj = e.changedTouches[0];
     horizontalDist = touchObj.pageX - startX;
     elapsedTime = new Date().getTime() - startTime;
