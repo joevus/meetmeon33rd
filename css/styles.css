@@ -5,6 +5,7 @@
   /*padding-top:5px;
   padding-bottom:5px;*/
   padding: 0;
+  background-color: #DACFBD;
   /*min-height: 600px;*/
 }
 
@@ -21,23 +22,27 @@
   background: url(../images/flowers-and-door-by-parking-lot-smaller.jpg) center bottom;
   background-size: cover;
   height: 350px;
-  border-right: solid #DACFBD 10px;
-  border-top: solid #DACFBD 10px;
+  /*border-right: solid #DACFBD 10px;
+  border-top: solid #DACFBD 10px;*/
+  border: solid #333 2px;
 }
 
 .jumbo-right {
   background: url(../images/meet-me-on-33rd-from-street.jpg) center bottom;
   background-size: cover;
   height: 350px;
-  border-left: solid #DACFBD 10px;
-  border-top: solid #DACFBD 10px;
+  /*border-left: solid #DACFBD 10px;
+  border-top: solid #DACFBD 10px;*/
+  border: solid #333 2px;
 }
 
 .jumbo-middle-top-container {
   background-color: #DACFBD;
   padding: 0;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  /*padding-top: 10px;
+  padding-bottom: 10px;*/
+  border-top: solid #333 2px;
+  border-bottom: solid #333 2px;
 }
 
 .jumbo-middle-top {
@@ -46,9 +51,9 @@
   background-color: #fdfdfd;
   background-repeat: no-repeat;
   background-size: contain;
-  height: 165px;
-  border-top: solid #fdfdfd 10px;
-  border-bottom: solid #fdfdfd 10px;
+  height: 173px;
+  border-top: solid #fdfdfd 15px;
+  border-bottom: solid #fdfdfd 15px;
   /*border-left: solid #fdfdfd 15px;
   border-right: solid #fdfdfd 15px;*/
 }
@@ -58,7 +63,8 @@
   background-color: white;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 165px;
+  height: 173px;
+  border-bottom: solid #333 2px;
   /*border-left: solid white 8px;
   border-right: solid white 8px;*/
 }
