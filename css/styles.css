@@ -1,8 +1,11 @@
 .jumbotron {
-  background: url(../images/meet-me-on-33rd-from-street.jpg) center bottom;
-  background-size: cover;
+  /*background: url(../images/meet-me-on-33rd-from-street.jpg) center bottom;
+  background-size: cover;*/
   color: white;
-  min-height: 600px;
+  /*padding-top:5px;
+  padding-bottom:5px;*/
+  padding: 0;
+  /*min-height: 600px;*/
 }
 
 .jumbotron h1{
@@ -12,6 +15,52 @@
   /*color: white;*/
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
   /*background-color: rgba(200,200,200,.8);*/
+}
+
+.jumbo-left {
+  background: url(../images/flowers-and-door-by-parking-lot-smaller.jpg) center bottom;
+  background-size: cover;
+  height: 350px;
+  border-right: solid #DACFBD 10px;
+  border-top: solid #DACFBD 10px;
+}
+
+.jumbo-right {
+  background: url(../images/meet-me-on-33rd-from-street.jpg) center bottom;
+  background-size: cover;
+  height: 350px;
+  border-left: solid #DACFBD 10px;
+  border-top: solid #DACFBD 10px;
+}
+
+.jumbo-middle-top-container {
+  background-color: #DACFBD;
+  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.jumbo-middle-top {
+  background: url(../images/Meet-Me-On-33-Logo.png) center;
+  /*background-color: white;*/
+  background-color: #fdfdfd;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 165px;
+  border-top: solid #fdfdfd 10px;
+  border-bottom: solid #fdfdfd 10px;
+  /*border-left: solid #fdfdfd 15px;
+  border-right: solid #fdfdfd 15px;*/
+}
+
+.jumbo-middle-bottom {
+  background: url(../images/gallery/Bistro-tables.jpeg) center;
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 165px;
+  /*border-left: solid white 8px;
+  border-right: solid white 8px;*/
 }
 
 nav img {
@@ -58,7 +107,8 @@ h1, h2, h3, h4, h5, h6, .nav>li>a {
 body{
   font-family: Helvetica, sans-serif;
   font-size: 14pt;
-  background-color: rgba(195,178,148,.6);
+  /*background-color: rgba(195,178,148,.6);*/
+  background-color: #DACFBD;
   /*lighter*/
   /*background-color: rgb(234,215,178);*/
   /*extra lighter*/
