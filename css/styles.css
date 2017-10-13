@@ -5,7 +5,8 @@
   /*padding-top:5px;
   padding-bottom:5px;*/
   padding: 0;
-  background-color: #DACFBD;
+  /*background-color: #DACFBD;*/
+  background-color: #333;
   /*min-height: 600px;*/
 }
 
@@ -37,7 +38,7 @@
 }
 
 .jumbo-middle-top-container {
-  background-color: #DACFBD;
+  background-color: #333;
   padding: 0;
   /*padding-top: 10px;
   padding-bottom: 10px;*/
@@ -56,6 +57,7 @@
   border-bottom: solid #fdfdfd 15px;
   /*border-left: solid #fdfdfd 15px;
   border-right: solid #fdfdfd 15px;*/
+  border-radius: 3px;
 }
 
 .jumbo-middle-bottom {
