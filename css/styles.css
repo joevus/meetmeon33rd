@@ -72,14 +72,14 @@
 }
 
 nav img {
-  width: 200px;
-  padding: 8px;
-  background-color: rgba(255,255,255,10);
-  border-radius: 3px;
+  width: 70px;
+  margin-top: -6px;
 }
 
-.navbar {
-  border-radius: 0;
+@media (max-width: 768px) {
+    nav img {
+      width: 60px;
+    }
 }
 
 .navbar-brand {
