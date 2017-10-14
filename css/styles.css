@@ -96,6 +96,10 @@ nav img {
   margin: 0;
 }
 
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: rgb(96, 58, 85);
+}
+
 .navbar-default .nav>li>a {
   padding-left: 20px;
   padding-right: 20px;
