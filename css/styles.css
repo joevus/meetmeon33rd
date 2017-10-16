@@ -164,13 +164,13 @@ body{
   padding: 5px 15px;
 }
 
-.tagline h3 {
-  margin: 50px auto 30px auto;
+.tagline h2 {
+  margin: 90px auto 30px auto;
 }
 
 @media (max-width: 768px) {
   /*Make invitation to call visible without scrolling on lots of mobile*/
-  .tagline h3 {
+  .tagline h2 {
     margin: 30px auto 30px auto;
   }
 }
@@ -186,7 +186,9 @@ img {
 }
 
 .front-description {
-  margin-top: 30px;
+  margin-top: 85px;
+  line-height: 1.5;
+  font-size: 16pt;
 }
 
 .features {
