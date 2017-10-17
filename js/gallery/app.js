@@ -5,13 +5,14 @@ var photoNames = [
   "David-and-table.jpg",
   "Meditation.jpg",
   "Meditation-front.jpg",
-  "Photo-Mar-05,-1-05-04 PM.jpg",
-  "Photo-Nov-07-12-03-15-PM.jpg",
-  "Photo-Sep-19,-5-24-01-PM.jpg",
   "Seminar-tables-meeting.jpg",
   "Sunday-Chant-1.jpg",
   "Sunday-dinner.jpg",
-  "Sunday-Gauranga-breathing.jpg"
+  "Sunday-Gauranga-breathing.jpg",
+  "table-nicely-set.jpg",
+  "yoga-backends.jpg",
+  "yoga-nicole.jpg",
+  "yoga-restoration.jpg"
 ];
 
 // index indicating which photo we're displayig in viewer
