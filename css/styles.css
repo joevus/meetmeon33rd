@@ -235,6 +235,13 @@ img {
   padding-bottom: 5px;
 }
 
+@media (max-width: 768px) {
+  /*Make invitation to call visible without scrolling on lots of mobile*/
+  .viewer-instruction {
+    font-size: 12pt;
+  }
+}
+
 .viewer-caption {
   padding-top: 15px;
   margin-bottom: 90px;
