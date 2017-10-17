@@ -226,8 +226,17 @@ img {
 .gallery-header {
   margin-top: 40px;
 }
+
+.viewer-instruction {
+  color: #606060;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 30px;
+  padding-bottom: 5px;
+}
+
 .viewer-caption {
-  padding-top: 10px;
+  padding-top: 15px;
   margin-bottom: 90px;
 }
 
