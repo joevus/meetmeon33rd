@@ -1,5 +1,5 @@
 /* Desired changes
-    
+
 */
 $(document).ready(function(){
 
@@ -39,7 +39,7 @@ $(document).ready(function(){
         // set screen back to size for anything larger than xs (768px)
         // mainly for if desktop user makes window small,
         // then large again.
-        document.getElementById("viewer").style.height = "640px";
+        document.getElementById("viewer").style.height = "580px";
       }
 
     }
