@@ -195,8 +195,11 @@ img {
   margin-top: 90px;
 }
 
-.feature-img {
-  width: 100%;
+.feature-img-parent {
+  background-position: center;
+  background-size: cover;
+  height: 239px;
+  border-radius: 4px;
 }
 
 /*About page*/
