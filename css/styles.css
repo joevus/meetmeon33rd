@@ -22,7 +22,7 @@
 .jumbo-left {
   background: url(../images/flowers-and-door-by-parking-lot-smaller.jpg) center bottom;
   background-size: cover;
-  height: 350px;
+  height: 400px;
   /*border-right: solid #DACFBD 10px;
   border-top: solid #DACFBD 10px;*/
   border: solid #333 2px;
@@ -31,7 +31,7 @@
 .jumbo-right {
   background: url(../images/meet-me-on-33rd-from-street.jpg) center bottom;
   background-size: cover;
-  height: 350px;
+  height: 400px;
   /*border-left: solid #DACFBD 10px;
   border-top: solid #DACFBD 10px;*/
   border: solid #333 2px;
@@ -52,7 +52,7 @@
   background-color: #fdfdfd;
   background-repeat: no-repeat;
   background-size: contain;
-  height: 173px;
+  height: 198px;
   border-top: solid #fdfdfd 15px;
   border-bottom: solid #fdfdfd 15px;
   /*border-left: solid #fdfdfd 15px;
@@ -65,7 +65,7 @@
   background-color: white;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 173px;
+  height: 198px;
   border-bottom: solid #333 2px;
   /*border-left: solid white 8px;
   border-right: solid white 8px;*/
@@ -186,7 +186,7 @@ img {
 }
 
 .front-description {
-  margin-top: 85px;
+  margin-top: 75px;
   line-height: 1.5;
   font-size: 16pt;
 }
