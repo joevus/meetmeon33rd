@@ -36,24 +36,6 @@ nav img {
   margin-top: -6px;
 }
 
-@media (max-width: 768px) {
-    nav img {
-      width: 60px;
-    }
-    /* reduce jumbotron collage to two images and fix borders,
-    changes sizes of images */
-    .jumbo-left, .jumbo-right {
-      height: 210px;
-      border: none;
-    }
-    .jumbo-middle-bottom, .jumbo-right {
-      display: none;
-    }
-    .jumbo-middle-top {
-      height: 165px;
-    }
-}
-
 .navbar-brand {
   /* To allow centering of links to not be affect by logo image. */
   position: absolute;
@@ -86,6 +68,10 @@ nav img {
 
 
 @media (min-width: 768px) {
+    nav img {
+      width: 60px;
+    }
+
     .navbar .navbar-nav {
         display: inline-block;
         float: none;
@@ -184,6 +170,22 @@ nav img {
   border-bottom: solid #333 2px;
   /*border-left: solid white 8px;
   border-right: solid white 8px;*/
+}
+
+@media (max-width: 768px) {
+
+    /* reduce jumbotron collage to two images and fix borders,
+    changes sizes of images */
+    .jumbo-left, .jumbo-right {
+      height: 225px;
+      border: none;
+    }
+    .jumbo-middle-bottom, .jumbo-right {
+      display: none;
+    }
+    .jumbo-middle-top {
+      height: 165px;
+    }
 }
 
 
