@@ -80,7 +80,7 @@ nav img {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     nav img {
       /*width: 55px;*/
       margin-top: -5px;
@@ -176,7 +176,7 @@ nav img {
   border-right: solid white 8px;*/
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
     /* reduce jumbotron collage to two images and fix borders,
     changes sizes of images */
@@ -199,7 +199,7 @@ nav img {
   margin: 90px auto 30px auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   /*Make invitation to call visible without scrolling on lots of mobile*/
   .tagline h2 {
     margin: 30px auto 30px auto;
@@ -268,8 +268,8 @@ nav img {
   padding-bottom: 5px;
 }
 
-@media (max-width: 768px) {
-  /*Make invitation to call visible without scrolling on lots of mobile*/
+@media (max-width: 767px) {
+  /* Descrease font-size for instructions on mobile*/
   .viewer-instruction {
     font-size: 12pt;
   }
