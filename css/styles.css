@@ -232,6 +232,7 @@ nav img {
 }
 
 .features p {
+  padding-top: 4px;
   height: 140px;
 }
 
