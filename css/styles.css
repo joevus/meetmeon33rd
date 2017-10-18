@@ -219,6 +219,7 @@ nav img {
   font-size: 16pt;
 }
 
+/** Features **/
 .features {
   margin-top: 90px;
 }
@@ -228,6 +229,10 @@ nav img {
   background-size: cover;
   height: 239px;
   border-radius: 4px;
+}
+
+.features p {
+  height: 140px;
 }
 
 /** About page **/
