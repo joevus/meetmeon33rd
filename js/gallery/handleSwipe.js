@@ -4,11 +4,13 @@ $(document).ready(function(){
   // javascriptkit.com/javatutors/touchevents2.shtml
   // https://stackoverflow.com/questions/2264072/detect-a-finger-swipe-through-javascript-on-the-iphone-and-android
 
-  // will be swiping on gallery viewer
+  // will be changing photo of gallery viewer
   var viewer = document.getElementById("viewer");
+  // will be swiping on viewer-container
+  var viewerContainer = document.getElementsByClassName("viewer-container")[0];
 
-  viewer.addEventListener('touchstart', handleTouchStart, false);
-  viewer.addEventListener('touchend', handleTouchEnd, false);
+  viewerContainer.addEventListener('touchstart', handleTouchStart, false);
+  viewerContainer.addEventListener('touchend', handleTouchEnd, false);
 
   var xStart;
   var yStart;
@@ -30,7 +32,7 @@ $(document).ready(function(){
       photoIdx--;
     }
 
-    e.target.style.backgroundImage = `url('../images/gallery/${photoNames[photoIdx]}')`;
+    viewer.style.backgroundImage = `url('../images/gallery/${photoNames[photoIdx]}')`;
   }
 
   function handleLeftSwipe(e) {
@@ -42,7 +44,7 @@ $(document).ready(function(){
       photoIdx = 0;
     }
 
-    e.target.style.backgroundImage = `url('../images/gallery/${photoNames[photoIdx]}')`;
+    viewer.style.backgroundImage = `url('../images/gallery/${photoNames[photoIdx]}')`;
   }
 
   function handleTouchStart(e) {
@@ -54,7 +56,7 @@ $(document).ready(function(){
     // e.preventDefault()
   }
 
-  viewer.addEventListener('touchmove', function(e) {
+  viewerContainer.addEventListener('touchmove', function(e) {
     // Prevent unwanted vertical scrolling when wanting to swipe photos.
     // Tries to gauge when user is trying to swipe versus scroll vertically.
     // Prevents scrolling even in some cases when not a successful swipe.
