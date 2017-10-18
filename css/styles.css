@@ -311,11 +311,13 @@ nav img {
 }
 
 .address {
-    padding-bottom: 30px;
+    margin-top: 50px;
 }
 
-.address ul {
+.location ul {
     list-style-type: none;
+    padding: 0;
+    margin-bottom: 70px;
 }
 
 #map {
