@@ -247,11 +247,8 @@ nav img {
 }
 
 .about-section {
-  margin-top: 80px;
-}
-
-.our-story {
-  margin-top: 110px;
+  /* each section tag in about page has this class */
+  margin-top: 90px;
 }
 
 .meet-team {
@@ -262,7 +259,7 @@ nav img {
 /** Gallery **/
 
 .gallery-header {
-  margin-top: 40px;
+  margin-top: 90px;
 }
 
 .viewer-instruction {
@@ -305,7 +302,7 @@ nav img {
 /** Reservations **/
 
 .reservation-header {
-  margin-top: 100px;
+  margin-top: 90px;
   margin-bottom: 80px;
 }
 
@@ -331,6 +328,7 @@ nav img {
 
 footer {
     background-color: #78496A;
+    margin-top: 150px;
     padding-top: 30px;
     padding-bottom: 15px;
     text-align: center;
