@@ -347,3 +347,10 @@ footer {
     text-align: center;
     color: white;
 }
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer a:hover {
+  text-decoration: none;
+}
