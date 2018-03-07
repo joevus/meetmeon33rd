@@ -219,6 +219,10 @@ nav img {
   font-size: 16pt;
 }
 
+.front-description p.appointment-para {
+  margin-top: 40px;
+}
+
 /** Features **/
 .features {
   margin-top: 90px;
