@@ -316,9 +316,13 @@ nav img {
 
 /** Reservations **/
 
-.reservation-header {
+.price {
   margin-top: 90px;
   margin-bottom: 80px;
+}
+
+.reservation {
+  margin-bottom: 90px;
 }
 
 .location {
