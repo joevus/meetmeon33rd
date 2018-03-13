@@ -125,7 +125,7 @@ nav img {
 }
 
 .jumbo-left {
-  background: url(../images/flowers-and-door-by-parking-lot-smaller.jpg) center bottom;
+  background: url(../images/flowers-and-door-by-parking-lot-smaller.jpg) center center;
   background-size: cover;
   height: 400px;
   /*border-right: solid #DACFBD 10px;
