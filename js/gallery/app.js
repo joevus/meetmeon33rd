@@ -1,18 +1,35 @@
 // global code to be shared with other gallery js files
 
 var photoNames = [
-  "Bistro-tables.jpeg",
-  "David-and-table.jpg",
-  "Meditation.jpg",
-  "Meditation-front.jpg",
-  "Seminar-tables-meeting.jpg",
-  "Sunday-Chant-1.jpg",
-  "Sunday-dinner.jpg",
-  "Sunday-Gauranga-breathing.jpg",
-  "table-nicely-set.jpg",
-  "yoga-backends.jpg",
-  "yoga-nicole.jpg",
-  "yoga-restoration.jpg"
+  "a",
+  "b",
+  "c",
+  "d",
+  "e",
+  "f",
+  "g",
+  "h",
+  "j",
+  "k",
+  "l",
+  "m",
+  "ma",
+  "mb",
+  "mc",
+  "md",
+  "me",
+  "n",
+  "na",
+  "nb",
+  "o",
+  "p",
+  "q",
+  "r",
+  "ra",
+  "rb",
+  "s",
+  "t",
+  "u"
 ];
 
 // index indicating which photo we're displayig in viewer
