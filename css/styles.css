@@ -166,7 +166,7 @@ nav img {
 }
 
 .jumbo-middle-bottom {
-  background: url(../images/gallery/Bistro-tables.jpeg) center;
+  background: url(../images/Bistro-tables.jpeg) center;
   background-color: white;
   background-size: cover;
   background-repeat: no-repeat;
@@ -298,7 +298,7 @@ nav img {
 }
 
 #viewer {
-  background-image: url(../images/gallery/Bistro-tables.jpeg);
+  background-image: url(../images/a.jpg);
   background-color: #222;
   background-size: contain;
   background-repeat: no-repeat;
